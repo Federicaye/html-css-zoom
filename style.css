@@ -105,7 +105,6 @@ main {
 
 .f-column {
     flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-start;
 }
 
@@ -120,4 +119,8 @@ main {
 
 .start-self {
     align-self: flex-start;
+}
+
+.justify-self {
+    justify-self: center;
 }
