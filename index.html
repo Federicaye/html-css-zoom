@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zoom</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/68bd7b78c8.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
     <div id="app">
-        <header class="d-flex flex-end"></header>
+        <header class="d-flex flex-end">
+            <div>Space view</div>
+            <div></div>
+        </header>
 
-        <main class="d-flex align-items wrap">
+        <main class="d-flex flex-start align-items wrap">
 
-            <div class="user">
-                <img src="https://picsum.photos/200/300" alt="">
-            </div>
             <div class="user"></div>
             <div class="user"></div>
             <div class="user"></div>
@@ -36,9 +39,18 @@
             <div class="user"></div>
             <div class="user"></div>
         </main>
-        <div id="toolbar"></div>
+        <div id="toolbar" class="d-flex f-column wrap">
+            <div class="column"><i class="fa-solid fa-microphone"></i><i class="fa-solid fa-video"></i></div>
+            <div class="column">nnnnnnn</div>
+            <div class="column"><i class="fa-solid fa-user-plus"></i><i class="fa-solid fa-users"></i><i class="fa-solid fa-chart-column"></i><i class="fa-solid fa-share-from-square"></i><i class="fa-solid fa-comment"></i><i class="fa-solid fa-ellipsis-vertical"></i></div>
+            <div class="column">bbbbbb</div>
+            <div class="column"></div>
+            <div class="column">nnnnnnn</div>
+
+        </div>
 
     </div>
-    
+
 </body>
+
 </html>

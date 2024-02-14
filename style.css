@@ -40,6 +40,7 @@ main {
     padding: 20px;
     gap: 10px;
     width: 100%;
+    
 }
 
 .user {
@@ -47,6 +48,8 @@ main {
     aspect-ratio: 16 / 9;
     background-color: #4bc800;
     min-width: 300px;
+    background-image: url(https://picsum.photos/200/300);
+    background-size: cover;
 }
 
 .user img {
@@ -62,11 +65,22 @@ main {
     height: 70px;
 }
 
+.column {
+    flex-basis: 50%;
+}
+
+*[class~="fa-solid"] {
+    padding: 5px;
+}
+
 /* utility flex */
 
 .d-flex {
     display: flex;
-    justify-content: center;
+}
+
+.flex-start {
+    justify-content: flex-start;
 }
 
 .flex-end {
@@ -82,3 +96,7 @@ main {
     flex-wrap: wrap;
 }
 
+.f-column {
+    flex-direction: column;
+    justify-content: space-between;
+}
