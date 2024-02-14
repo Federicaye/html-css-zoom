@@ -71,6 +71,7 @@ main {
 
 *[class~="fa-solid"] {
     padding: 5px;
+    margin-right: 35px;
 }
 
 /* utility flex */
