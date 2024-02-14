@@ -32,6 +32,11 @@ header {
     background-color: #222222;
 }
 
+header div {
+    background-color: var(--color-grey2);
+    height: 30px;
+}
+
 /* main */
 
 main {
