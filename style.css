@@ -74,6 +74,11 @@ main {
     margin-right: 35px;
 }
 
+#toolbar:nth-child(odd) {
+    margin-right: 65px;
+
+}
+
 /* utility flex */
 
 .d-flex {
