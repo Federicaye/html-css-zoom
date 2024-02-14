@@ -71,9 +71,10 @@ main {
 
 *[class~="fa-solid"] {
     padding: 5px;
-    margin-right: 35px;
+    margin-right: 0px;
 }
 
+/*
 #toolbar:nth-child(odd) {
     margin-right: 65px;
 
@@ -104,8 +105,10 @@ main {
 
 .f-column {
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
+
 
 .end-self {
     align-self: flex-end;
@@ -113,4 +116,8 @@ main {
 
 .center-self {
     align-self: center;
+}
+
+.start-self {
+    align-self: flex-start;
 }
