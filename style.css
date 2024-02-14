@@ -55,6 +55,7 @@ main {
     min-width: 100px;
     background-image: url(https://picsum.photos/200/300);
     background-size: cover;
+    position: relative;
 }
 
 .user img {
@@ -63,10 +64,20 @@ main {
     display: block;
 }
 
+.name {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(87, 80, 80, 0.7) ;
+    width: 80px;
+    height: 20px;
+    font-size: 10px;
+}
+
 /* toolbar */
 
 #toolbar {
-    background-color: var(--color-grey2);
+    background-color: var(--color-tool);
     height: 70px;
 }
 
